@@ -19,6 +19,6 @@ npm run build
 
 A workflow is included at `.github/workflows/deploy-pages.yml`.
 
-- Push to the `work` branch to trigger a Pages deployment.
+- Push to the `main` branch to trigger a Pages deployment automatically.
 - In your repository settings, set **Pages > Source** to **GitHub Actions**.
 - The workflow sets `BASE_PATH` automatically to `/<repo-name>/` so assets resolve correctly on Pages.
